@@ -1,0 +1,6 @@
+
+python_code:
+    使用 python 在Pi B+ 上控制器械人手臂
+
+arduino_code:
+    使用 arudino 透過RS232傳送joystick控制訊息給Pi B+

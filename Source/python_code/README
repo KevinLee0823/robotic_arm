@@ -1,0 +1,29 @@
+# Mech_arm.py
+
+The controll class of the arm.
+
+
+# PCA9685.py
+
+The control class of IC PCA9685 via i2c bus 
+
+
+# joystick.py
+
+The class for read the joystick made of arduino board and analog device.
+Read action is implemented via the UART "/dev/ttyUSB0"
+
+
+# joystick_usb.py
+
+The class for read the USB Joystick.
+Read action is implemented via "/dev/input/js0"
+
+
+# test-code
+
+The dircetor contains the test code.
+
+## main.py
+
+the main loop which is operating the arm depending the command from joystick
